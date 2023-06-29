@@ -1,0 +1,246 @@
+@media screen and (min-width:500px) {
+    body{
+
+        margin: 0 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(204, 112, 240, 0.164);
+    }
+    .FOND{
+        background-image: url(ndl.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+    .recherche{
+        padding-top: 5%;
+    }
+    .container{
+        display: flex;
+        flex-direction: row; 
+        padding-top: 1%;
+    }
+    a{
+        color: black;
+        border:solid rgba(2, 2, 2, 0.74) ;
+        padding: 6px 80px;
+        margin-left: 5%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline;
+        border-radius: 100px;
+    }
+    a:hover{
+       border: solid chocolate ;
+        text-decoration: underline;
+    }
+    #search{
+        width: 20%;
+        margin: 20px 0;
+        border-radius: 10px;
+        padding: 0.5%;
+        margin-left: 20cm;
+    }
+    .titre{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:   rgba(248, 244, 244, 0.288) ;
+        padding: 20px;
+        padding-left: 17vw;
+        margin: 0%;
+        font-size: 500%;
+        padding-top: 10%;
+    }
+    .fond1{ 
+        padding: 25px;
+        margin: 0%;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+   
+    .acceuil1{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        font-size: 120%;
+    }
+    .element1{
+        flex-basis: 50vw;
+        padding-left: 10px;
+        
+    }
+    .element2{
+        flex-basis: 50vw;
+        padding-left: 5vw;        
+    }
+    h2{
+        font-size: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .acceuil2{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 10px;
+        margin: 0%;
+
+    }
+
+    .element3{
+        flex-basis: 50vw;
+        padding-left: -5%;
+        margin: 25px;
+     }
+    h1{
+        font-size: 90%;
+        color: rgb(14, 13, 13);
+    }
+    p1{
+        font-size: 100%;
+        color: chocolate;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .element4{
+        flex-basis: 50vw;
+        padding-left: 1vw;  
+    }
+
+    .acceuil3{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        
+    }
+    .element5{
+        flex-basis: 50vw;
+        padding-left: 10px;
+        
+    }
+    .element6{
+        flex-basis: 50vw;
+        padding-left: 5vw;
+        padding-top: 5%;
+    }
+}
+@media screen and (max-width:500px) {
+    body{
+
+        margin: 0 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(204, 112, 240, 0.164);
+    }
+    .FOND{
+        background-image: url(ndl.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        width: 100%;
+        height: 200%;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row; 
+        padding-top: 1%;
+    }
+    a{
+        color: black;
+        border:solid rgba(2, 2, 2, 0.74) ;
+        padding: 1px 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline;
+        border-radius: 100px;
+        margin-left: 2.5%;
+    }
+    a:hover{
+       border: solid chocolate ;
+        text-decoration: underline;
+    }
+    #search{
+        width: 70%;
+        margin: 20px 0;
+        border-radius: 10px;
+        padding: 0.5%;
+    }
+    .titre{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:   rgba(248, 244, 244, 0.288) ;
+        padding: 20px;
+        padding-left: 17vw;
+        margin: 0%;
+        font-size: 300%;
+        padding-top: 10%;
+    }
+    .fond1{ 
+        padding: 25px;
+        margin: 0%;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+   
+    .acceuil1{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        margin: 0%;
+    }
+    .element1{
+        flex-basis: 50vw;
+        
+    }
+    .element2{
+        flex-basis: 50vw;       
+    }
+    h2{
+        font-size: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .acceuil2{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        font-size: 120%;
+    }
+
+    .element3{
+        flex-basis: 50vw;
+        padding-left: -5%;
+        margin: 25px;
+     }
+    h1{
+        font-size: 90%;
+        color: rgb(14, 13, 13);
+    }
+    p1{
+        font-size: 100%;
+        color: chocolate;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .element4{
+        flex-basis: 50vw;
+        padding-left: 1vw;  
+    }
+
+    .acceuil3{
+        font-size: 120%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        margin: 0%;
+    }
+    .element5{
+        flex-basis: 50vw;
+        padding-left: 10px;
+        
+    }
+    .element6{
+        flex-basis: 50vw;
+        padding-left: 5vw;
+    }
+}
